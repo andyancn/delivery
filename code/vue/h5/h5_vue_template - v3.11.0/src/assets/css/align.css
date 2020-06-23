@@ -1,0 +1,28 @@
+.align_left {
+    text-align: left;
+}
+
+.align_center {
+    text-align: center;
+}
+
+.align_right {
+    text-align: right;
+}
+
+.align_top {
+    vertical-align: top;
+}
+
+.align_middle {
+    vertical-align: middle;
+}
+
+.align_bottom {
+    vertical-align: bottom;
+}
+
+.rotate {
+    transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg); /* Safari 和 Chrome */
+}

@@ -1,0 +1,21 @@
+/*---------------------------------------- broadcast typeFlag */
+/*紧急公告*/
+.broadcast_type_flag__1 {
+    color: #aa0000 !important;
+}
+
+/*系统公告*/
+.broadcast_type_flag__2 {
+    color: #009900 !important;
+}
+
+/*商务推广*/
+.broadcast_type_flag__3 {
+    color: #723192 !important;
+}
+
+/*用户广播*/
+.broadcast_type_flag__4 {
+}
+
+/*---------------------------------------- bizcard typeFlag */

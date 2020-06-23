@@ -1,0 +1,175 @@
+.hr{
+    height:1px;
+    line-height:1px;
+    position:relative;
+    display:block;
+}
+.gap {
+    display: block;
+}
+
+.gap1 {
+    height: 1px;
+    line-height: 1px;
+}
+
+.gap2 {
+    height: 2px;
+    line-height: 2px;
+}
+
+.gap3 {
+    height: 3px;
+    line-height: 3px;
+}
+
+.gap4 {
+    height: 4px;
+    line-height: 4px;
+}
+
+.gap5 {
+    height: 5px;
+    line-height: 5px;
+}
+
+.gap6 {
+    height: 6px;
+    line-height: 6px;
+}
+
+.gap7 {
+    height: 7px;
+    line-height: 7px;
+}
+
+.gap8 {
+    height: 8px;
+    line-height: 8px;
+}
+
+.gap9 {
+    height: 9px;
+    line-height: 9px;
+}
+
+.gap10 {
+    height: 10px;
+    line-height: 10px;
+}
+
+.gap12 {
+    height: 12px;
+    line-height: 12px;
+}
+
+.gap15 {
+    height: 15px;
+    line-height: 15px;
+}
+
+.gap16 {
+    height: 16px;
+    line-height: 16px;
+}
+
+.gap18 {
+    height: 18px;
+    line-height: 18px;
+}
+
+.gap20 {
+    height: 20px;
+    line-height: 20px;
+}
+
+.gap22 {
+    height: 22px;
+    line-height: 22px;
+}
+
+.gap24 {
+    height: 24px;
+    line-height: 24px;
+}
+
+.gap25 {
+    height: 25px;
+    line-height: 25px;
+}
+
+.gap26 {
+    height: 26px;
+    line-height: 26px;
+}
+
+.gap28 {
+    height: 28px;
+    line-height: 28px;
+}
+
+.gap30 {
+    height: 30px;
+    line-height: 30px;
+}
+
+.gap32 {
+    height: 32px;
+    line-height: 32px;
+}
+.gap36 {
+    height: 36px;
+    line-height: 36px;
+}
+
+.gap40 {
+    height: 40px;
+    line-height: 40px;
+}
+.gap42 {
+    height: 42px;
+    line-height: 42px;
+}
+
+.gap50 {
+    height: 50px;
+    line-height: 50px;
+}
+
+.gap60 {
+    height: 60px;
+    line-height: 60px;
+}
+
+.gap70 {
+    height: 70px;
+    line-height: 70px;
+}
+.gap80 {
+    height: 80px;
+    line-height: 80px;
+}
+.gap100 {
+    height: 100px;
+    line-height: 100px;
+}
+
+/*delimiters*/
+.row_delimiter{
+    height:1px;
+    line-height:1px;
+    overflow: hidden;
+    border-top:1px solid #eee;
+}
+.row_delimiter.light_grey{
+    border-top:1px solid #f5f5f5 !important;
+}
+.col_delimiter {
+    width: 1px;
+    overflow:hidden;
+    display: inline-block;
+    border-left: 1px solid #eee;
+}
+.col_delimiter.light_grey{
+    border-left: 1px solid #f5f5f5 !important;
+}

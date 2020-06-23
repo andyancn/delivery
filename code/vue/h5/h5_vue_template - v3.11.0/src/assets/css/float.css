@@ -1,0 +1,39 @@
+.clearFix:before, .clearFix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearFix {
+    overflow: auto;
+    _height: 1%;
+}
+
+.clearFix {
+    overflow: hidden;
+    _zoom: 1;
+}
+
+.float_left {
+    float: left;
+}
+
+.float_right {
+    float: right;
+}
+.fixed{
+     position: fixed;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.border-box{
+    box-sizing:border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
+}

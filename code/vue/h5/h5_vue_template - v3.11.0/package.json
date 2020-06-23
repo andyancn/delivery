@@ -1,0 +1,59 @@
+{
+  "name": "YFZ_H5_SALE",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "dev": "vue-cli-service serve --mode dev",
+    "prod": "vue-cli-service build --mode prod",
+    "test": "vue-cli-service build --mode test",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "canvas2image": "^1.0.5",
+    "core-js": "^2.6.5",
+    "element-ui": "^2.12.0",
+    "es6-promise": "^4.2.8",
+    "html2canvas": "^1.0.0-rc.5",
+    "js-cookie": "^2.2.1",
+    "js-md5": "^0.7.3",
+    "lib-flexible": "^0.3.2",
+    "px2rem-loader": "^0.1.9",
+    "qrcodejs2": "0.0.2",
+    "storejs": "^1.0.25",
+    "vant": "^2.6.3",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.3",
+    "vue-touch": "^2.0.0-beta.4",
+    "vuex": "^3.1.1",
+    "vux": "^2.9.2",
+    "weixin-js-sdk": "^1.4.0-test"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-plugin-eslint": "^3.11.0",
+    "@vue/cli-service": "^3.11.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "vue-cli-plugin-vux": "^3.0.0",
+    "vue-loader": "14.2.3",
+    "vue-template-compiler": "^2.6.10",
+    "vux-loader": "^1.2.9"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "optionalDependencies": {
+    "fsevents": "*"
+  }
+}

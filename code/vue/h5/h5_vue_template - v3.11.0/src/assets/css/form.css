@@ -1,0 +1,35 @@
+.form_item .form_element {
+    font-size: 26px;
+    padding: 3px 3px 5px 3px;
+}
+
+.form_item .input_tip_container {
+    text-align: right;
+    font-size: 12px;
+    color: #bbb;
+}
+
+.form_item .validate_tip {
+    color: #d00;
+}
+
+button.btn_customer_service{
+    width:64px;
+    height:64px;
+    padding:0 !important;
+    border:0 !important;
+    background-color:transparent;
+}
+button.btn_customer_service:before{
+    padding:0 !important;
+    border:0 !important;
+}
+button.btn_customer_service:after{
+    padding:0 !important;
+    border:0 !important;
+}
+
+button.btn_customer_service image{
+    width:100%;
+    height:100%;
+}

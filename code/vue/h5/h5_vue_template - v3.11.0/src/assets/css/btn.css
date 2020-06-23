@@ -1,0 +1,101 @@
+/** disable the default style of a button by wechat. NOTE: plain="true" is required.*/
+.btn_as_link {
+    height: inherit !important;
+    line-height: inherit !important;
+    border: none !important;
+    border-width: 0 !important;
+    border-radius: 6px !important;
+    padding: 0 !important;
+    font-size: inherit !important;
+    color: inherit !important;
+    background-color: inherit !important;
+    display:inline;
+}
+.btn_without_style:before{
+    border:0 !important;
+}
+.btn_without_style{
+    height: inherit !important;
+    line-height: inherit !important;
+    border: none !important;
+    border-width: 0 !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    font-size: inherit !important;
+    color: inherit !important;
+    background-color: inherit !important;
+    display:inline;
+}
+.btn_without_style:after{
+    border:0 !important;
+}
+
+.btn_hovered {
+    border: 1px solid #723192 !important;
+}
+
+.btn_hovered__del {
+    background-color: #d00 !important;
+    color: #fff !important;
+}
+
+.btn_simple {
+    height: inherit !important;
+    line-height: inherit !important;
+    border-radius: 6px !important;
+    font-size: inherit !important;
+    color: inherit !important;
+    background-color: inherit !important;
+}
+
+.simulate_btn {
+    padding: 1px 2px;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 5px;
+    display: inline-block;
+}
+.btn_s1{
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 15px 20px;
+    width: 180px;
+    height: inherit !important;
+    line-height: inherit !important;
+    border: none !important;
+    border-width: 0 !important;
+    display: block;
+}
+.btn_s1::after{
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 15px 20px;
+    width: 180px;
+    height: inherit !important;
+    line-height: inherit !important;
+    border: none !important;
+    border-width: 0 !important;
+    display: block;
+}
+
+.btn_s2{
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 5px 20px;
+    width: 160px;
+    height: inherit !important;
+    line-height: inherit !important;
+    border: none !important;
+    border-width: 0 !important;
+    display: block;
+}
+.btn_s2::after{
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 15px 20px;
+    width: 180px;
+    height: inherit !important;
+    line-height: inherit !important;
+    border: none !important;
+    border-width: 0 !important;
+    display: block;
+}

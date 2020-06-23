@@ -1,0 +1,201 @@
+.width_10 {
+    width: 10%;
+}
+
+.width_20 {
+    width: 20%;
+}
+
+.width_30 {
+    width: 30%;
+}
+
+.width_40 {
+    width: 40%;
+}
+
+.width_50 {
+    width: 50%;
+}
+
+.width_60 {
+    width: 60%;
+}
+
+.width_70 {
+    width: 70%;
+}
+
+.width_80 {
+    width: 80%;
+}
+
+.width_90 {
+    width: 90%;
+}
+
+.width_100 {
+    width: 100%;
+}
+
+/* ------- position ------- */
+.pos_relative {
+    position: relative;
+}
+
+.pos_absolute {
+    position: absolute;
+}
+
+.pos_absolute.top.right {
+    top: 0;
+    right: 0;
+}
+
+.pos_absolute.top.left {
+    top: 0;
+    left: 0;
+}
+
+.pos_absolute.right.bottom {
+    right: 0;
+    bottom: 0;
+}
+
+.pos_absolute.bottom.left {
+    bottom: 0;
+    left: 0;
+}
+
+/*image dimension*/
+image.img20x20{
+    width:20px;
+    height:20px;
+}
+image.img26x26{
+    width:26px;
+    height:26px;
+}
+image.img28x28{
+    width:28px;
+    height:28px;
+}
+image.img30x30{
+    width:30px;
+    height:30px;
+}
+image.img32x32{
+    width:32px;
+    height:32px;
+}
+image.img36x36{
+    width:36px;
+    height:36px;
+}
+image.img38x38{
+    width:38px;
+    height:38px;
+}
+image.img40x40{
+    width:40px;
+    height:40px;
+}
+image.img42x42{
+    width:42px;
+    height:42px;
+}
+image.img44x44{
+    width:44px;
+    height:44px;
+}
+image.img46x46{
+    width:46px;
+    height:46px;
+}
+image.img48x48{
+    width:48px;
+    height:48px;
+}
+image.img52x52{
+    width:52px;
+    height:52px;
+}
+image.img60x60{
+    width:60px;
+    height:60px;
+}
+image.img64x64{
+    width:64px;
+    height:64px;
+}
+image.img66x66{
+    width:66px;
+    height:66px;
+}
+image.img70x70{
+    width:70px;
+    height:70px;
+}
+image.img76x76{
+    width:76px;
+    height:76px;
+}
+image.img80x80{
+    width:80px;
+    height:80px;
+}
+image.img84x84{
+    width:84px;
+    height:84px;
+}
+image.img96x96{
+    width:96px;
+    height:96px;
+}
+image.img100x100{
+    width:100px;
+    height:100px;
+}
+image.img118x118{
+    width:118px;
+    height:118px;
+}
+image.img120x120{
+    width:120px;
+    height:120px;
+}
+image.img130x130{
+    width:130px;
+    height:130px;
+}
+image.img136x136{
+    width:136px;
+    height:136px;
+}
+image.img146x146{
+    width:146px;
+    height:146px;
+}
+image.img160x160{
+    width:160px;
+    height:160px;
+}
+image.img180x180{
+    width:180px;
+    height:180px;
+}
+image.img195x88{
+  width:195px;
+  height:88px;
+}
+image.img200x200{
+   width:200px;
+   height:200px;
+}
+image.img226x226{
+   width:226px;
+    height:226px;
+}
+image.trim_btm{
+    float:left;
+}

@@ -1,0 +1,129 @@
+@import 'align.css';
+@import 'btn.css';
+@import 'color.css';
+@import 'dimension.css';
+@import 'dict.css';
+@import 'flex.css';
+@import 'float.css';
+@import 'fontsize.css';
+@import 'form.css';
+@import 'gap.css';
+@import 'animation.css';
+
+page {
+    /*font-family: "Courier New";*/
+    background-color: #e5e5e5;
+    color: #444;
+}
+
+.refresh_control {
+    color: #ccc;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.tip_no_data {
+    color: #999;
+    font-size: 32px;
+    text-align: center;
+    /*margin-top: 16%;*/
+}
+.tip_no_data .glyphicon{
+    font-size:320px;
+    margin: 16% 0;
+}
+
+.overflow_wrap {
+    overflow: hidden; /*超出一行文字自动隐藏*/
+    white-space: nowrap; /*强制不换行*/
+    text-overflow: ellipsis; /*文字隐藏后添加省略号*/
+    display: -webkit-box;
+    word-break: break-all;
+    /*font-size: 32px;*/
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+/*displayFlag*/
+.displayFlag_HIDE {
+    color: #aaa !important;
+    opacity: 0.7;
+}
+
+.displayFlag_SHOW {
+}
+
+.hidden {
+    display: none !important;
+}
+
+.table_cell {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 4px 6px;
+    padding:6px 10px;
+}
+
+.time_cell {
+    /*width: 56px !important;*/
+    text-align: center !important;
+    /*min-width:120px;*/
+    font-size:28px;
+    min-width: 16.666666%;
+}
+
+.with_shadow{
+    box-shadow: #eee 0 0 20px;
+}
+.border_bottom_1{
+  border-bottom: 1px solid #e5e5e5
+}
+.confirm_btn{
+  width: auto;
+  height: auto;
+  line-height: 36px;
+  margin:0 68px;
+  padding:24px 0;
+  border-radius: 4px;
+}
+.circle{
+  border-radius:50%;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    height: 88px;
+    width: 100%;
+    z-index: 2;
+}
+.border_t_1{
+    border-top: 1px solid #F0F0F0;
+}
+.border_b_1{
+  border-bottom: 1px solid #ECECEC;
+}
+
+.border_1{
+    border: 1px solid rgba(102,102,102,0.18) ;
+    box-sizing: border-box;
+}
+.border_radius_18{
+    border-radius:2.4vw;
+}
+.shadow_2{
+    box-shadow: 2px 2px 2px 2px rgba(102,102,102,0.18)
+}
+
+.none_border{
+  border:none;
+}
+.bg-img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.line-through
+{
+    text-decoration:line-through
+}
