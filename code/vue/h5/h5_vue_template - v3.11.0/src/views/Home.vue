@@ -1,21 +1,24 @@
 <template>
-    <div class="flex_col full_screen border-box bg_0BEBFF">
+    <div class="flex_col full_screen border-box bg_div">
         <!--<my-tabbar v-if="showTabbar"></my-tabbar>-->
         <div class="flex_col">
             <div v-for="(item,index) in list">
-                <v-touch @panstart="panstart(item)"  @swiperight="swiperright(index)" @swipeleft="swiperleft(index)" class="wrapper">
-                    <div class="menu-container" ref="menuContainer" style="height: 20vw">
-                        sdfasdfasfd
+                <v-touch @panstart="panstart(item)" @swiperight="swiperright(index)" @swipeleft="swiperleft(index)"
+                         class="wrapper">
+                    <div class="flex_row_start flex_align_middle">
+                        <div>
+                            <van-image
+                                    width="20vw"
+                                    heigh="20vw"
+                                    fit="fit"
+                                    :src="defaultImg"/>
+                        </div>
+                        <div>
+                            11111
+                        </div>
                     </div>
                 </v-touch>
             </div>
-        </div>
-        <div>
-            <van-image
-                    width="100vw"
-                    heigh="90vw"
-                    fit="cover"
-                    :src="productInfo.cover"/>
         </div>
         <!--<div style="position: fixed;bottom: 10vw;width: 100%;" class="">-->
         <div v-if="userInfo.fxUserType !=10 && userInfo.fxUserType !=20" class="mg_b_20 mg_lr_30">
@@ -25,12 +28,12 @@
             </van-button>
         </div>
         <!--<a href="http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzU3Nzg1MzMzOA==#wechat_redirect">公众号</a>-->
-        <div class="flex_col align_center f18 pd_b_20 fc_D4A867 mg_t_20">
-            <div>Copyright ©2020-2021 Yuehuhui co.,Ltd .All Rights Reserved</div>
-            <div><a href="http://www.miitbeian.gov.cn/" class="fc_D4A867">粤ICP备19031257号-1</a></div>
+        <div class="footer">
+            <div class="flex_col align_center f18 pd_b_20 text_color mg_t_20">
+                <div>Copyright ©2020-2021 andy co.,Ltd .All Rights Reserved</div>
+                <div><a href="http://www.miitbeian.gov.cn/">粤ICP备xxx号-1</a></div>
+            </div>
         </div>
-        <div class="holder_place"></div>
-
     </div>
 </template>
 
@@ -46,12 +49,13 @@
         // components: { MyTabbar },
         data() {
             return {
+                defaultImg: require('../assets/images/logo.png'),
                 productInfo: '',
                 registFlag: 0,
                 accountInfo: '',
                 userInfo: '',
                 userId: '',
-                list:['a','b','c']
+                list: ['a', 'b', 'c']
             };
         },
         created() {
@@ -75,18 +79,18 @@
         methods: {
             swiperleft: function (e) {
                 Toast("左划");
-                console.log("swiperleft=======>",e)
+                console.log("swiperleft=======>", e)
                 // this.$router.push({'path':'/self'});
             },
             swiperright: function (e) {
                 Toast("右划");
-                console.log("swiperright=======>",e)
+                console.log("swiperright=======>", e)
                 // this.$router.push({'path':'/home'});
             },
 
             panstart: function (e) {
                 Toast("移动");
-                console.log("panstart=======>",e)
+                console.log("panstart=======>", e)
                 // this.$router.push({'path':'/home'});
             },
 
